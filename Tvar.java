@@ -19,8 +19,9 @@ public enum Tvar {
     }
 
     public static int vyska(Tvar tvar) {
+      int vyska = 0;
       for (int i = 0; i < 4; i++) {
-        if (Arrays.asList(tvar.vTabulce()[i].)contains(true)) {
+        if (Arrays.asList(tvar.vTabulce()[i]).contains(true)) {
           vyska++;
         }
       }

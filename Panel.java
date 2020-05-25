@@ -107,7 +107,7 @@ public class Panel extends JPanel implements ActionListener {
             if (kostky[i] != null && kostky[i].muzeSeHybat == true) {
                 kostky[i].y++;
             }
-            if(kostky[i] != 0) {
+            if(kostky[i] != null) {
               if (kostky[i].y + Tvar.vyska(kostky[i].tvar) >= POCET_Y) {
               kostky[i].muzeSeHybat = false;
               }
